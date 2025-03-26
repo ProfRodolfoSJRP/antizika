@@ -1,6 +1,6 @@
 ﻿namespace antiZika
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();

@@ -2,9 +2,11 @@ using System.Security.Cryptography;
 
 namespace antiZika
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
-        public Form1()
+
+        private readonly string _conexao = antiZika.Properties.Settings.Default.Conexao;
+        public Principal()
         {
             InitializeComponent();
         }
